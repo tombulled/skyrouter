@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sky-hub"
+version = "0.1.0"
+description = "Python API Client for Sky Hubs"
+authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.22.0"
+beautifulsoup4 = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+pytest = "^7.1.1"
+mypy = "^0.942"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
