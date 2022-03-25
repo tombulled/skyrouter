@@ -12,7 +12,7 @@ from typing import List
 
 
 @dataclasses.dataclass
-class SkyHub:
+class SkyRouter:
     host: str = constants.DEFAULT_HOST
 
     username: str = constants.DEFAULT_USERNAME
