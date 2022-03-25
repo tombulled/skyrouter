@@ -1,0 +1,3 @@
+DEFAULT_HOST: str = "skyrouter"
+DEFAULT_USERNAME: str = "admin"
+DEFAULT_PASSWORD: str = DEFAULT_USERNAME
