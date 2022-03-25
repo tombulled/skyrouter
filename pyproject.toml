@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Python API Client for Sky Routers (Sky Hubs)"
 authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tombulled/skyrouter"
+repository = "https://github.com/tombulled/skyrouter"
+keywords = ["skyrouter", "skyhub", "sky", "router", "hub"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
